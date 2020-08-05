@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Authors>Briand Quentin</Authors>
+    <Company>Briand Quentin</Company>
+    <Product>PdfSpliter</Product>
+    <PackageId>com.briand.quentin.PdfSplit</PackageId>
+    <Description>Permet de séparer un fichier pdf en plusieurs fichier pdf</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PdfSharp" Version="1.50.5147" />
+  </ItemGroup>
+
+</Project>
